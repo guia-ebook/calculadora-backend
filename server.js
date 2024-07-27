@@ -1,7 +1,7 @@
 // server.js
 const express = require('express');
 const app = express();
-const port = 4000;
+const port = 9000;
 const { buscarDados } = require('./utils/buscarDados'); // Importa a função de cálculo
 
 // Middleware para parsear JSON
