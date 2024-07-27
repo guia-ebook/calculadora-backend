@@ -1,0 +1,32 @@
+{
+  "name": "calculadora-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://guia-ebook.github.io/calculadora-backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guia-ebook/calculadora-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guia-ebook/calculadora-backend/issues"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "nodemon": "^3.1.4"
+  }
+}
