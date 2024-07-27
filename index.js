@@ -1,7 +1,8 @@
 // server.js
+require('dotenv').config(); // Carrega variáveis de ambiente do arquivo .env
 const express = require('express');
 const app = express();
-const port = 9000;
+const port = process.env.PORT || 9001;
 const { buscarDados } = require('./utils/buscarDados'); // Importa a função de cálculo
 
 // Middleware para parsear JSON
